@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Asap:400,500,700&display=swap');
+
+body {
+  overflow-x: hidden;
+  font-size: 1em;
+  font-family: Asap, sans-serif;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  -webkit-transition: margin 0.25s ease-out;
+  -moz-transition: margin 0.25s ease-out;
+  -o-transition: margin 0.25s ease-out;
+  transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+  padding: 0.875rem 1.25rem;
+  font-size: 1.2rem;
+}
+
+#sidebar-wrapper .sidebar-heading img {
+  max-width: 200px;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+#sidebar-wrapper .list-group-item {
+  font-weight: 700;
+  border-bottom: none;
+}
+
+#sidebar-wrapper li a {
+  color: black;
+}
+
+#sidebar-wrapper li a:hover {
+  text-decoration: none;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+
+.corSicoobUm {
+  background: #c9d200;
+  color: white;
+}
+
+.corSicoobUm a {
+  color: white;
+}
+
+.corSicoobDois {
+  background: #7db61c;
+  color: white;
+}
+
+.corSicoobDois a {
+  color: white;
+}
+
+.corSicoobTres {
+  background: #00ae9d;
+  color: white;
+}
+
+.corSicoobTres a {
+  color: white;
+}
+
+.corSicoobQuatro {
+  background: #003641;
+  color: white;
+}
+
+.corSicoobQuatro a {
+  color: white;
+}
+
+.btn-primary {
+  background-color: #c9d200;
+  border-color: #c9d200;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #c9d200 !important;
+  border-color: #c9d200 !important;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:active,
+.btn-secondary:visited {
+  background-color: #7db61c !important;
+  border-color: #7db61c !important;
+}
+
+.btn-warning,
+.btn-warning:hover,
+.btn-warning:active,
+.btn-warning:visited {
+  background-color: #00ae9d !important;
+  border-color: #00ae9d !important;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:visited {
+  background-color: #003641 !important;
+  border-color: #003641 !important;
+}
+
+.btn-info,
+.btn-info:hover,
+.btn-info:active,
+.btn-info:visited Link {
+  color: white;
+}
+
+.breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb li a {
+  color: black;
+}
+
+.breadcrumb li a:hover {
+  text-decoration: none;
+}
+
+.linkButtons {
+  color: white;
+}
+
+.linkButtons:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.card h1,
+p {
+  font-weight: 700;
+}
+
+.goldenStar {
+  color: goldenrod;
+}
+
+ul {
+  list-style-type: none;
+}
